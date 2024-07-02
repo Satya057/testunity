@@ -1,5 +1,9 @@
 # DevTools Replica
 
+
+**Live Link**: https://splendorous-churros-a6ae18.netlify.app/
+**Demo video link**: https://www.loom.com/share/7b811c98b8fe42fbaaad1e8cd4cd4fbf?sid=70406d67-1013-4071-947a-f1720576f3cf
+
 This project replicates the functionalities of Google Chrome's DevTools as part of a screening round for job applicants. It assesses understanding of web development, debugging, and performance analysis tools.
 
 ## Features
