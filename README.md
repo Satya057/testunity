@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+This project replicates the functionalities of Google Chrome's DevTools as part of a screening round for job applicants. The project assesses the understanding of web development, debugging, and performance analysis tools.
+
+Features
+Request Monitoring: Lists all network requests made by the page.
+Request Details: Displays detailed information about each request, including headers, payload, response, and timing.
+Filtering: Allows filtering of network requests by type (XHR, JS, CSS, etc.).
+Technologies Used
+Framework: ReactJS
+State Management: Redux with redux-thunk for handling asynchronous actions
+Styling: Custom CSS using Flexbox for layout and design
+Setup Instructions
+Clone the repository:
+sh
+Copy code
+git clone https://github.com/yourusername/devtools-replica.git
+cd devtools-replica
+Install dependencies:
+sh
+Copy code
+npm install
+Start the development server:
+sh
+Copy code
+npm start
+Demo
+[Provide a link to a live demo if possible]
+
+Repository Structure
+src/components: Contains the React components for the application
+NetworkPanel.js: Main component displaying the network panel
+RequestList.js: Component to list all network requests
+RequestDetails.js: Component to show details of a selected request
+Filter.js: Component to filter requests by type
+src/redux: Contains Redux setup for state management
+actions: Redux actions
+reducers: Redux reducers
+store.js: Redux store configuration
+src/App.css: CSS file for styling the application
+Evaluation Criteria
+Functionality: Completeness and correctness of the replicated features.
+Code Quality: Readability, structure, and documentation of the code.
+User Experience: Usability and interface design.
+Performance: Efficiency and responsiveness of the application.
+Additional Notes
+Feel free to contribute to the project or report issues. Your feedback is appreciated!
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
