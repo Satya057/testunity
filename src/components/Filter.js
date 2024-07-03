@@ -1,7 +1,9 @@
+// src/components/Filter.js
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { filterRequests } from '../redux/actions/requestActions';
 import '../App.css';
+
 const Filter = () => {
   const dispatch = useDispatch();
 

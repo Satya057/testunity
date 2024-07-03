@@ -1,13 +1,16 @@
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-// import thunk from 'redux-thunk';  // Importing thunk correctly
-import networkReducer from './reducers/networkReducer';
- import {thunk} from "redux-thunk";
-
+import {thunk} from 'redux-thunk'; // Note: Correcting import from 'redux-thunk'
+import { requestReducer } from './reducers/requestReducer';
 
 const rootReducer = combineReducers({
-  network: networkReducer,
+  network: requestReducer,
 });
 
-const store = createStore(rootReducer, applyMiddleware(thunk));
+const middleware = [thunk];
+
+const store = createStore(
+  rootReducer,
+  applyMiddleware(...middleware)
+);
 
 export default store;

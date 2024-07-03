@@ -22,7 +22,7 @@ const NetworkPanel = () => {
     <div className="network-panel">
       <Filter />
       <RequestList requests={filteredRequests} />
-      {selectedRequest && <RequestDetails request={selectedRequest} />}
+      {selectedRequest && <RequestDetails />}
     </div>
   );
 };
